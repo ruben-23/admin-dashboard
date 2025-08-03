@@ -35,14 +35,22 @@
     grid-auto-flow: column;
     grid-template-columns: 1fr 20fr;
     gap: 1rem;
-    justify-self: start;
-    align-self: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .search img {
     justify-self: end;
-    width: 1.8rem;
-    height: 1.8rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.search input {
+    font-size: 1.3rem;
+    padding: 0.2rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid lightgrey;
+    background-color: rgb(211, 211, 211);
 }
 
 .profile {
@@ -60,6 +68,11 @@
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 50%;;
+}
+
+#notification {
+    width: 2rem;
+    height: 2rem;
 }
 
 .welcome {
@@ -89,7 +102,16 @@
     justify-items: center;
     align-items: center;
     gap: 2rem;
+}
 
+.actions button {
+    padding: 0.7rem 2rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    border: none;
+    background-color: rgb(53, 175, 231);
+    color: white;
+    font-weight: 600;
 }
 
 
