@@ -184,19 +184,15 @@
 
 .main-content {
     background-color: rgb(224, 224, 224);
-    padding: 2rem;
+    padding: 2rem 1rem 1rem;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0.8fr 0.6fr;
     gap: 15px;
 }
 
 .projects-container {
     grid-row: 1/3;
-}
-
-.main-content> div {
-    /* border: 1px solid black; */
 }
 
 .projects {
@@ -248,4 +244,40 @@
 
 hr {
     border: 0.5px solid lightgray;
+}
+
+
+.trending-container{
+    display: grid;
+    grid-template-rows: 1.5rem 1fr;
+    padding-bottom: 1rem;
+}
+
+.trending {
+    background-color: white;
+    margin-top: 1rem;
+    border-radius: 15px;
+    display: grid;
+}
+
+.trend-project {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-left: 20px;
+    column-gap: 0.5rem;
+}
+
+.trend-project img {
+    grid-row: 1/3;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+.trend-project p:first-of-type{
+    font-weight: bolder;
 }
