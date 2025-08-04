@@ -207,3 +207,24 @@
     gap: 1.5rem;
 }
 
+.project-card {
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    padding: 40px 20px 30px;
+    border-radius: 15px;
+    border-left: 8px solid rgb(211, 173, 0);
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+}
+
+.project-actions {
+    display: grid;
+    grid-auto-flow: column;
+    justify-self: end;
+    gap: 20px;
+}
+
+.project-actions img {
+    height: 2rem;
+    width: 2rem;
+}
