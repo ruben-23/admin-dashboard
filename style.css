@@ -1,6 +1,23 @@
+
+@font-face {
+    font-family: "Roboto";
+    src: url(./styles/Roboto-Regular.woff2) format(woff2),
+         url(./styles/Roboto-Regular.woff) format(woff);
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(./styles/Roboto-Bold.woff2) format(woff2),
+         url(./styles/Roboto-Bold.woff) format(woff);
+}
+
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+  font-family: "Roboto", "Segoe UI", Helvetica, Arial, sans-serif, system-ui;
 }
 
 button:hover,
@@ -127,9 +144,6 @@ li:hover {
     background-color: rgb(25, 146, 212);
     font-size: large;
     display: grid;
-    /* grid-template-rows: 0.5fr 2fr 3fr;
-    grid-template-columns: 1fr;
-    gap: 1.5rem; */
     justify-content: center;
     align-content: start;
 
