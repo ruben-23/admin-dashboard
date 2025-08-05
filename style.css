@@ -211,7 +211,7 @@ li:hover {
 
 .project-card {
     background-color: rgb(255, 255, 255);
-    height: 150px;
+    min-height: 100px;
     padding: 40px 20px 30px;
     border-radius: 15px;
     border-left: 8px solid rgb(211, 173, 0);
