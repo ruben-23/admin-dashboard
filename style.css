@@ -127,13 +127,20 @@ li:hover {
     background-color: rgb(25, 146, 212);
     font-size: large;
     display: grid;
-    grid-template-rows: 0.5fr 2fr 3fr;
+    /* grid-template-rows: 0.5fr 2fr 3fr;
     grid-template-columns: 1fr;
-    gap: 1.5rem;
+    gap: 1.5rem; */
     justify-content: center;
-    align-content: center;
+    align-content: start;
 
     padding: 10px 30px;
+}
+
+.sidebar-content {
+    display: grid;
+    grid-template-rows: 0.8fr 2fr 3fr;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
 }
 
 .sidebar img {
@@ -183,6 +190,10 @@ li:hover {
 
 .main-actions ul li h3 {
     align-self: start;
+}
+
+.secondary-actions {
+    margin-top: 2rem;
 }
 
 .sidebar img {
